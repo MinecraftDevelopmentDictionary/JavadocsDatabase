@@ -1,0 +1,5 @@
+output_path = "bstats.db"
+resource_paths = ["bStats-API/bukkit/src/main/java"]
+build_files = ["bStats-API"]
+allowed_packages = ["*"]
+maven_home = "/opt/maven"
