@@ -1,0 +1,5 @@
+output_path = "result/bukkit-api.toml"
+resource_paths = ["Purpur/Purpur-API/src/main/java"]
+build_files = ["Purpur"]
+allowed_packages = ["*"]
+maven_home = "/opt/maven"
