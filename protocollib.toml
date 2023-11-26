@@ -1,0 +1,5 @@
+output_path = "result/protocollib.db"
+resource_paths = ["ProtocolLib/src/main/java"]
+build_files = ["ProtocolLib"]
+allowed_packages = ["*"]
+maven_home = "/opt/maven"
