@@ -1,0 +1,21 @@
+output_path = "result/adventure.db"
+resource_paths = [
+    "Adventure/text-minimessage/src/main/java",
+    "Adventure/text-logger-slf4j/src/main/java",
+    "Adventure/text-serializer-json/src/main/java",
+    "Adventure/text-serializer-gson/src/main/java",
+    "Adventure/text-serializer-plain/src/main/java",
+    "Adventure/text-serializer-ansi/src/main/java",
+    "Adventure/text-serializer-legacy/src/main/java",
+    "Adventure/text-serializer-json-legacy-impl/src/main/java",
+    "Adventure/text-serializer-gson-legacy-impl/src/main/java",
+    "Adventure/serializer-configurate4/src/main/java",
+    "Adventure/serializer-configurate3/src/main/java",
+    "Adventure/ansi/src/main/java",
+    "Adventure/api/src/main/java",
+    "Adventure/key/src/main/java",
+    "Adventure/nbt/src/main/java",
+]
+build_files = ["Adventure"]
+allowed_packages = ["*"]
+maven_home = "/opt/maven"
