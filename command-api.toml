@@ -1,0 +1,8 @@
+output_path = "result/command-api.db"
+resource_paths = [
+    "CommandAPI/commandapi-annotations/src/main/java",
+    "CommandAPI/commandapi-platforms/commandapi-bukkit/src/main/java"
+]
+build_files = ["CommandAPI"]
+allowed_packages = ["*"]
+maven_home = "/opt/maven"
